@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "590107280677",
+    "project_id": "rsabase-c87a2",
+    "storage_bucket": "rsabase-c87a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590107280677:android:e8aaa8943c3e17f16e86cc",
+        "android_client_info": {
+          "package_name": "com.encrypt.encriprsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590107280677-81fnvjhk8unpbvtsdi3rjm41p681u1ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.encrypt.encriprsa",
+            "certificate_hash": "062c07e6a1472fb6c7eebc9827dd0b52d8a92bf3"
+          }
+        },
+        {
+          "client_id": "590107280677-1hq18catop8oceh38jmu8a2h8rvlg443.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR1V4esTqpQ1CS1LGyBJqJyMGI8bkopFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590107280677-1hq18catop8oceh38jmu8a2h8rvlg443.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Encriptar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titEncriptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="@string/txt_titEncrypt"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <EditText
+            android:id="@+id/InputLlavePublica"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Introduzca su llave publica"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <EditText
+            android:id="@+id/EncriptarMsj"
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Escriba aqui su mensaje"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/btnEncriptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/txt_Encriptar"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/txt_result"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="406dp" />
+
+        <EditText
+            android:id="@+id/EncryptResult"
+            android:layout_width="400dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="469dp" />
+
+        <Button
+            android:id="@+id/btnCopyMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/txt_btnCopy" />
+
+    </LinearLayout>
+
+</LinearLayout>

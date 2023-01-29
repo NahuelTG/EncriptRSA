@@ -1,0 +1,43 @@
+<resources>
+
+    #Titulos
+    <string name="app_name">EncripRSA</string>
+    <string name="txt_welcome">Bienvenido a \n EncriptRSA</string>
+    <string name="txt_titEncrypt">ENCRIPTACION</string>
+    <string name="txt_titDesencypt">DESENCRIPTACION</string>
+    <string name="txt_result">Resultado</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_SigIngPass">Ingrese su Contraseña</string>
+    <string name="txt_IntRegister">Registrarse</string>
+    <string name="txt_titRegister">Crear Cuenta</string>
+    <string name="txt_titEmail">Correo Electrónico</string>
+    <string name="txt_titPass">Contraseña</string>
+
+
+    #Botones
+    <string name="txt_start">Comenzar</string>
+    <string name="txt_Encriptar">Encriptar</string>
+    <string name="txt_Desencriptar">Desencriptar</string>
+    <string name="txt_btnRegistar">Registrarse</string>
+    <string name="txt_btnIrLista">Lista de Llaves</string>
+    <string name="txt_btnCopy">Copiar</string>
+
+    #ListaKeys
+        #Titulos
+    <string name="txt_titDescription">Descripción</string>
+    <string name="txt_titKeyPub">Llave Pública</string>
+    <string name="txt_titKeyPriv">Llave Privada</string>
+    <string name="txt_titPasswd">Contraseña</string>
+    <string name="txt_titLista">LIsta de Llaves</string>
+        #Buttons
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="txt_btnGuardarLlaves">Guardar</string>
+    <string name="txt_btnBorrar">Borrar</string>
+
+    #Hints
+    <string name="txt_hintEmail">Introduzca su correo Electrónico</string>
+    <string name="txt_hintPass">Introduzca una Contraseña</string>
+    <string name="txt_hintDescrip">Descripción de uso</string>
+
+    <string name="txt_condiciones">* La Contraseña debe tener 8 o más caracteres \n\n * La Contraseña debe tener al menos una minúscula \n\n * La Contraseña debe tener al menos una mayúscula \n\n * La Contraseña debe tener al menos un caracter especial \n\n * La Contraseña debe tener al menos un número</string>
+</resources>
